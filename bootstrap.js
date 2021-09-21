@@ -18,7 +18,10 @@ const download = function (url, dest, cb) {
     fetch(url).then(res=>{
         res.body.pipe(file)
         console.log("Downloading Lavalink.jar")
+        
         console.log(process.env.PORT)
+        console.log(process.env.PASS)
+
         file.on("finish", function () {
             console.log("Downloaded Lavalink.jar")
             file.close(cb);
