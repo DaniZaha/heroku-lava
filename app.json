@@ -11,7 +11,11 @@
     "env": {
         "PASS": {
             "description": "The password change this to whatever you want it to be.",
-            "value": "youshallnotpass"
+            "value": "123"
+        },
+        "PORT": {
+            "description": "maybe port",
+            "value": "4256"
         },
         "JAVA_TOOL_OPTIONS": {
             "description": "This sets the ram to max *don't edit* this variable",
